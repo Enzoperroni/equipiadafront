@@ -1,4 +1,4 @@
-import LinkGenerico from "../components/LinkGenérico";
+import LinkGenerico from "../components/Link Genérico/LinkGenérico";
 import LinkSegundo from "../components/LinkSegundo";
 
 const Primeiro = ()=> {
