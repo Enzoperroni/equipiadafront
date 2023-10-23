@@ -1,5 +1,5 @@
 import LinkGenerico from "../components/Link Genérico/LinkGenérico";
-import LinkSegundo from "../components/LinkSegundo";
+import NewsFeed from "../components/post-teste/feed";
 
 const Primeiro = ()=> {
     const dados = [
@@ -20,10 +20,9 @@ const Primeiro = ()=> {
     ));
 
     
- return (<div>
-    <h1>Mini titulo</h1>
-    <p>Meu texto</p>
-    {links}
+ return (
+    <div>
+        <NewsFeed/>
     </div>);
 };
 
