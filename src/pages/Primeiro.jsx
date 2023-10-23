@@ -1,5 +1,5 @@
 import LinkGenerico from "../components/Link Genérico/LinkGenérico";
-import NewsFeed from "../components/post-teste/feed";
+import NewsFeed from "../components/feed/feed";
 
 const Primeiro = ()=> {
     const dados = [

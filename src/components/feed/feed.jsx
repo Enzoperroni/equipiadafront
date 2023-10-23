@@ -1,4 +1,4 @@
-import Post from "./post"
+import Post from "../post-teste/post"
 function NewsFeed(){
     return(
     <div class = 'Feed'>
