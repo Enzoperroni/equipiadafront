@@ -9,7 +9,6 @@ function Post({
     return(
     <PostContainer>
       <PostHeader>
-        <img src={imageSrc} alt={`${username}'s profile`} />
         <span>{username}</span>
       </PostHeader>
       <PostImage src={imageSrc} alt="Post" />
