@@ -1,7 +1,9 @@
-import Post from "../post-teste/post"
+import Header from "../header/Headerbody";
+import Post from "../post-teste/Post"
 function NewsFeed(){
     return(
     <div class = 'Feed'>
+      <Header/>
       <Post
         username="Nome do prédio"
         imageSrc="https://live.staticflickr.com/7716/27293785686_5e796fa811_b.jpg"
