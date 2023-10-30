@@ -1,3 +1,3 @@
-const LinkPrimeiro = () => <a href='/'>Link para Primeiro</a>
+const LinkPrimeiro = () => <a href='/'>Mapa</a>
 
 export default LinkPrimeiro

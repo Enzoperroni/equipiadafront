@@ -1,3 +1,3 @@
-const LinkSegundo = () => <a href='segundo'>Link para Segundo</a>
+const LinkSegundo = () => <a href='segundo'>Feed</a>
 
 export default LinkSegundo
