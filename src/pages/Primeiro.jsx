@@ -1,6 +1,7 @@
 import LinkGenerico from "../components/Link Genérico/LinkGenérico";
 import NewsFeed from "../components/feed/feed";
-
+import RioDeJaneiroMap from "../components/mapa/mapa";
+import LinkSegundo from "../components/LinkSegundo";
 const Primeiro = ()=> {
     const dados = [
         [ "https://www.ibmec.br/", "ibmec" ],
@@ -22,7 +23,8 @@ const Primeiro = ()=> {
     
  return (
     <div>
-        <NewsFeed/>
+        <RioDeJaneiroMap/>
+        <LinkSegundo/>
     </div>);
 };
 
