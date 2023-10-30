@@ -1,4 +1,4 @@
-import LinkPrimeiro from "../components/LinkPrimeiro";
+import LinkPrimeiro from "../components/link/LinkPrimeiro";
 import NewsFeed from "../components/feed/feed";
 
 const Segundo = ()=> {
