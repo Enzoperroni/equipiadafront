@@ -1,8 +1,9 @@
 import LinkPrimeiro from "../components/LinkPrimeiro";
+import NewsFeed from "../components/feed/feed";
 
 const Segundo = ()=> {
  return (<div>
-    <h5>Segundo</h5>
+    <NewsFeed/>
     <LinkPrimeiro/>
     </div>);
 };
