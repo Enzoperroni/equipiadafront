@@ -4,7 +4,7 @@ const EstilodoBotao = styled.button`
   background-image:url(https://pixel.cuboup.com/wp-content/uploads/edd/2021/10/Estrela.jpg);
   background-size: cover;
   margin:auto
-  margin-top:10px;
+  
   margin-left:1090px;
   padding:10px;
   border-radius:5px 5px 5px 5px;
