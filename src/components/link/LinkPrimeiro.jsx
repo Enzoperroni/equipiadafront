@@ -1,4 +1,13 @@
-import Linka from "./link"
-const LinkPrimeiro = () => <Linka href='/'>Mapa</Linka>
+import React from "react";
+import { LinkImage,ImageLinkContainer } from "./Link";
 
-export default LinkPrimeiro
+const MyComponent = () => {
+  return (
+    <ImageLinkContainer href="/">
+      <LinkImage src="https://cdn5.colorir.com/desenhos/color/201603/o-cristo-redentor-edificios-monumentos-1195620.jpg" alt="Image Description" />
+      
+    </ImageLinkContainer>
+  );
+};
+
+export default MyComponent;
