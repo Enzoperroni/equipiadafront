@@ -1,8 +1,8 @@
 import React from 'react'
-import { PostContainer } from './poststyle'
-import { PostHeader } from './poststyle'
-import { PostImage } from './poststyle'
-import { PostCaption } from './poststyle'
+import { PostContainer } from './Poststyle'
+import { PostHeader } from './Poststyle'
+import { PostImage } from './Poststyle'
+import { PostCaption } from './Poststyle'
 function Post({
     username, imageSrc, caption
 }){

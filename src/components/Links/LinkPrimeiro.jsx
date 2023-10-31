@@ -1,5 +1,5 @@
 import React from "react";
-import { LinkImage,ImageLinkContainer } from "./LinkPrimeiroytyle";
+import { LinkImage,ImageLinkContainer } from "./Link";
 
 const MyComponent = () => {
   return (
