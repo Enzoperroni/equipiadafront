@@ -1,5 +1,5 @@
 import Header from "../header/Headerbody";
-import Post from "../post-teste/Post"
+import Post from "../post-teste/post"
 function NewsFeed(){
     return(
     <div class = 'Feed'>
