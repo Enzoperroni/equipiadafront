@@ -59,6 +59,7 @@ const Botao = styled.button`
   
 
 `;
+
 export {Feed}
 export {PostCaption}
 export {PostContainer}

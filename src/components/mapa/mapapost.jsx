@@ -5,7 +5,7 @@ import {PredioImagem,CorLetra} from './PredioImagem';
 import IconLocation from './IconLocation';
 import IconAtualLocation from './IconAtualLocation';
 
-function RioDeJaneiroMap() {
+function PostMapa() {
   const [userLocation, setUserLocation] = useState(null);
 
   // Use the Geolocation API to get the user's location
@@ -49,7 +49,7 @@ function RioDeJaneiroMap() {
     <MapContainer
       center={userLocation || defaultPosition}
       zoom={11}
-      style={{ width: '100%', height: '90vh'}}
+      style={{ width: '100%', height: '150px'}}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -91,4 +91,4 @@ function RioDeJaneiroMap() {
   );
 } 
 
-export default RioDeJaneiroMap;
+export default PostMapa;
