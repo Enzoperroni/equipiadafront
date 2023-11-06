@@ -25,6 +25,7 @@ function Post({ username, imageSrc, caption,endereco }) {
         {expanded ? (
           <>
             <span>{caption}</span>
+           
             <PostMapa></PostMapa>
 
             

@@ -1,10 +1,12 @@
 import Header from "../header/Headerbody";
 import Post from "../post-teste/post";
+import { Containerpost } from "../post-teste/poststyle";
 
 function NewsFeed(){
     return(
-    <div class = 'Feed'>
+    <div className = 'Feed'>
       <Header/>
+      <Containerpost>
       <Post
         username="Nome do prédio"
         imageSrc="https://live.staticflickr.com/7716/27293785686_5e796fa811_b.jpg"
@@ -21,6 +23,7 @@ function NewsFeed(){
       <Post
         username="Nome do prédio 2"
         imageSrc="https://imagens.ebc.com.br/5ViwG74silxlB15UO9FzlZjHeGQ=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/973664-rj31082015-_dsc4038.jpg?itok=KFIZ9yZx"
+        endereco= "Endereço"
         caption="Si vis pacem, para belum Si vis pacem, para belum Si vis pacem, para belum Si vis pacem, para belum
         Si vis pacem, para belum Si vis pacem, para belum
         Si vis pacem, para belum Si vis pacem, para belum
@@ -29,11 +32,13 @@ function NewsFeed(){
       <Post
         username="Nome do prédio 2"
         imageSrc="https://ogimg.infoglobo.com.br/in/25005686-db4-e39/FT1086A/760/BotafogoEmpresas.jpg"
+        endereco="Endereço"
         caption="Si vis pacem, para belum Si vis pacem, para belum Si vis pacem, para belum Si vis pacem, para belum
         Si vis pacem, para belum Si vis pacem, para belum
         Si vis pacem, para belum Si vis pacem, para belum
         Si vis pacem, para belum Si vis pacem, para belumSi vis pacem, para belum Si vis pacem, para belum"
       />
+      </Containerpost>
       
       {/* Adicione mais posts conforme necessário */}
     </div>
