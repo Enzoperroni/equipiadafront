@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { PostContainer, PostHeader, PostImage, PostCaption, Botao,PostEndereco } from './poststyle';
+import { PostContainer, PostHeader, PostImage, PostCaption, Botao,PostEndereco} from './poststyle';
+import PostMapa from '../mapa/mapapost';
+
 
 function Post({ username, imageSrc, caption,endereco }) {
   const [expanded, setExpanded] = useState(false);
@@ -18,10 +20,15 @@ function Post({ username, imageSrc, caption,endereco }) {
       </PostHeader>
       <PostImage src={imageSrc} alt="Post" />
       <PostEndereco><span>{endereco}</span></PostEndereco>
+      
       <PostCaption>
         {expanded ? (
           <>
             <span>{caption}</span>
+           
+            <PostMapa></PostMapa>
+
+            
             <Botao onClick={toggleDescription}>Leia Menos</Botao>
           </>
         ) : (
@@ -38,7 +45,9 @@ function Post({ username, imageSrc, caption,endereco }) {
             )}
           </>
         )}
+      
       </PostCaption>
+      
     </PostContainer>
   );
 };

@@ -3,6 +3,7 @@ const Feed = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-width: 384px;
 `;
 
 const PostContainer = styled.div`
@@ -38,8 +39,8 @@ const PostImage = styled.img`
 `;
 
 const PostCaption = styled.div`
-  postion:relative
-  text-align: justify;
+  position: relative;
+  
   padding: 10px;
   span {
     font-size: 0.9rem;
@@ -59,10 +60,14 @@ const Botao = styled.button`
   
 
 `;
-export {Feed}
-export {PostCaption}
-export {PostContainer}
-export {PostHeader}
-export {PostImage}
-export {Botao}
-export {PostEndereco}
+const Containerpost = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`
+const Rodapé = styled.footer`
+  margin-top: 17em;
+  bottom: 10em;
+  border: 1px solid #e1e1e1;
+`;
+export {Feed,PostCaption,PostContainer,PostHeader,PostImage,Botao,PostEndereco,Containerpost,Rodapé}
+
