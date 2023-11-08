@@ -65,7 +65,7 @@ const Containerpost = styled.div`
   flex-wrap: wrap;
 `
 const Rodapé = styled.footer`
-  margin-top: 17em;
+  margin-top: 22em;
   bottom: 10em;
   border: 1px solid #e1e1e1;
 `;

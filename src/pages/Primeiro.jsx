@@ -26,7 +26,7 @@ const Primeiro = ()=> {
  return (
     <div>
         <RioDeJaneiroMap/>
-        <Rodapé><SegundoLink/></Rodapé>
+        <SegundoLink/>
     </div>);
 };
 
