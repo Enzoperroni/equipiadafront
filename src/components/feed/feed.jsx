@@ -1,10 +1,11 @@
 import Header from "../header/Headerbody";
 import Post from "../post-teste/post";
 import { Containerpost } from "../post-teste/poststyle";
+import { FundoFeed } from "../post-teste/poststyle";
 
 function NewsFeed(){
     return(
-    <div className = 'Feed'>
+    <div className="Feed">
       <Header/>
       <Containerpost>
       <Post

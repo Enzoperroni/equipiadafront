@@ -1,4 +1,5 @@
 import  styled  from "styled-components";
+import Backgroundrio from "./Backgroundimage/Backgroundrio.jpg"
 const Feed = styled.div`
   display: flex;
   flex-direction: column;
@@ -63,11 +64,23 @@ const Botao = styled.button`
 const Containerpost = styled.div`
   display: flex;
   flex-wrap: wrap;
+  
 `
+const FundoFeed = styled.div`
+  background-image: url(${Backgroundrio});
+  background-Size: cover;
+  background-Position: center;
+  background-Repeat: no-repeat;
+  background-Attachment: fixed;
+  
+  
+`
+
 const Rodapé = styled.footer`
   margin-top: 22em;
   bottom: 10em;
   border: 1px solid #e1e1e1;
+  background-color: white;
 `;
-export {Feed,PostCaption,PostContainer,PostHeader,PostImage,Botao,PostEndereco,Containerpost,Rodapé}
+export {Feed,PostCaption,PostContainer,PostHeader,PostImage,Botao,PostEndereco,Containerpost,Rodapé, FundoFeed}
 
