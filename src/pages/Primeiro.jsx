@@ -1,7 +1,9 @@
 import LinkGenerico from "../components/Link Genérico/LinkGenérico";
-import NewsFeed from "../components/feed/feed";
+
 import RioDeJaneiroMap from "../components/mapa/mapa";
-import LinkSegundo from "../components/link/LinkSegundo";
+
+import SegundoLink from "../components/link/LinkSegundo";
+import { Rodapé } from "../components/post-teste/poststyle";
 const Primeiro = ()=> {
     const dados = [
         [ "https://www.ibmec.br/", "ibmec" ],
@@ -24,7 +26,7 @@ const Primeiro = ()=> {
  return (
     <div>
         <RioDeJaneiroMap/>
-        <LinkSegundo/>
+        <SegundoLink/>
     </div>);
 };
 

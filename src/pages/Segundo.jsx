@@ -1,10 +1,11 @@
-import LinkPrimeiro from "../components/link/LinkPrimeiro";
+import PrimeiroLink from "../components/link/LinkPrimeiro";
 import NewsFeed from "../components/feed/feed";
+import { Rodapé } from "../components/post-teste/poststyle";
 
 const Segundo = ()=> {
  return (<div>
     <NewsFeed/>
-    <LinkPrimeiro/>
+    <Rodapé><PrimeiroLink/></Rodapé>
     </div>);
 };
 
