@@ -1,6 +1,9 @@
 import LinkGenerico from "../components/Link Genérico/LinkGenérico";
 
 import RioDeJaneiroMap from "../components/mapa/mapa";
+import NewsFeed from "../components/feed/feed";
+import { Rodapé } from "../components/post-teste/poststyle";
+import { FundoFeed } from "../components/post-teste/poststyle";
 
 import SegundoLink from "../components/link/LinkSegundo";
 import { Rodapé } from "../components/post-teste/poststyle";
@@ -24,10 +27,11 @@ const Primeiro = ()=> {
 
     
  return (
-    <div>
-        <RioDeJaneiroMap/>
-        <SegundoLink/>
-    </div>);
+    <FundoFeed>
+        <NewsFeed/>
+        <Rodapé><PrimeiroLink/></Rodapé>
+    </FundoFeed>)
+    ;
 };
 
 export default Primeiro;

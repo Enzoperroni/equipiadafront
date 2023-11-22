@@ -13,7 +13,7 @@ root.render(
     <HashRouter>
       <Routes>
         <Route path="/" element={<Primeiro />} />
-        <Route path="#/segundo" element={<Segundo/>} />
+        <Route path="/segundo" element={<Segundo/>} />
       </Routes>
     </HashRouter>
   </React.StrictMode>
