@@ -4,18 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Primeiro from './pages/Primeiro';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Segundo from './pages/Segundo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route path="/" element={<Primeiro />} />
       <Route path="segundo" element={<Segundo/>} />
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
