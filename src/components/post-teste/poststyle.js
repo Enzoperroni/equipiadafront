@@ -81,8 +81,8 @@ const FundoFeed = styled.div`
 const Rodapé = styled.footer`
   margin-top: 22em;
   bottom: 10em;
-  border: 1px solid #e1e1e1;
-  background-color: white;
+  
+ 
   
 `;
 export {Feed,PostCaption,PostContainer,PostHeader,PostImage,Botao,PostEndereco,Containerpost,Rodapé, FundoFeed}
