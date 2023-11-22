@@ -1,4 +1,5 @@
 import  styled  from "styled-components";
+import Backgroundrio from "./Backgroundimage/Backgroundrio.jpg"
 const Feed = styled.div`
   display: flex;
   flex-direction: column;
@@ -34,8 +35,10 @@ const PostHeader = styled.div`
 
 const PostImage = styled.img`
   width: 100%;
-  max-height: 400px;
+  max-height: 200px;
+  min-height: 200px;
   object-fit: cover;
+  
 `;
 
 const PostCaption = styled.div`
@@ -54,7 +57,7 @@ const PostEndereco = styled.div`
 const Botao = styled.button`
   
   
-  position:realtive;
+  position:relative;
   width:100%;
   cursor: pointer;
   
@@ -63,11 +66,27 @@ const Botao = styled.button`
 const Containerpost = styled.div`
   display: flex;
   flex-wrap: wrap;
+  
 `
+const FundoFeed = styled.div`
+  background-image: url(${Backgroundrio});
+  background-Size: cover;
+  background-Position: center;
+  background-Repeat: no-repeat;
+  background-Attachment: fixed;
+  
+  
+`
+
 const Rodapé = styled.footer`
   margin-top: 22em;
   bottom: 10em;
-  border: 1px solid #e1e1e1;
+  
+  
+  
+  
 `;
-export {Feed,PostCaption,PostContainer,PostHeader,PostImage,Botao,PostEndereco,Containerpost,Rodapé}
+export {Feed,PostCaption,PostContainer,PostHeader,PostImage,Botao,PostEndereco,Containerpost,Rodapé, FundoFeed}
+
+
 
