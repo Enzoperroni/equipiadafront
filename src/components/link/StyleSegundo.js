@@ -4,7 +4,8 @@ import styled from "styled-components";
 const ImageSegundoLinkContainer = styled.a`
   display: flex;
   flex-direction: column;
-  
+  width: 50px;
+  height: 40px;
   align-items: center;
   
   text-decoration: none;
