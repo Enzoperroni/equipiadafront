@@ -17,8 +17,7 @@ function NewsFeed(){
         Um pedaço de água doce entre as ondas do mar e as ondulações das montanhas que o cercam.
         São as ondulações dos terraços do Epitácio 1000.
         Ondulações que convivem bem com o desenho da lagoa e permitem arranjos criativos nos terraços, prolongamentos da sala e dos quartos."  
-                       
-               
+                                      
       />
       <Post
         username="Edifício Joseph Gire"

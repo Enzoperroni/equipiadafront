@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { PostContainer, PostHeader, PostImage, PostCaption, Botao, PostEndereco, BotaoExperiencia } from './poststyle';
 import PostMapa from '../mapa/mapapost';
 
-function Post({ username, imageSrc, caption, endereco, location })  {
+function Post({ username, imageSrc, caption, endereco, location }) {
   const [expanded, setExpanded] = useState(false);
   const [experienciaOpen, setExperienciaOpen] = useState(false);
 
@@ -29,7 +29,7 @@ function Post({ username, imageSrc, caption, endereco, location })  {
         {expanded ? (
           <>
             <span>{caption}</span>
-              <PostMapa posts={[{ position: location, title: username, imageSrc }]} />
+            <PostMapa posts={[{ position: location, title: username, imageSrc }]} />
 
             <BotaoExperiencia onClick={toggleExperiencia}> Experiencia</BotaoExperiencia>
             {experienciaOpen && (
@@ -55,7 +55,6 @@ function Post({ username, imageSrc, caption, endereco, location })  {
             )}
           </>
         )}
-
       </PostCaption>
     </PostContainer>
   );
