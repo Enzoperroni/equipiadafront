@@ -83,7 +83,7 @@ const Rodapé = styled.footer`
   bottom: 10em;
   
   
-  background-color: #09328C;
+  
   
 `;
 export {Feed,PostCaption,PostContainer,PostHeader,PostImage,Botao,PostEndereco,Containerpost,Rodapé, FundoFeed}
