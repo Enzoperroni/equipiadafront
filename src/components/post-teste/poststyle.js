@@ -57,7 +57,7 @@ const PostEndereco = styled.div`
 const Botao = styled.button`
   
   
-  position:realtive;
+  position:relative;
   width:100%;
   cursor: pointer;
   
@@ -82,7 +82,8 @@ const Rodapé = styled.footer`
   margin-top: 22em;
   bottom: 10em;
   
- 
+  
+  
   
 `;
 export {Feed,PostCaption,PostContainer,PostHeader,PostImage,Botao,PostEndereco,Containerpost,Rodapé, FundoFeed}
