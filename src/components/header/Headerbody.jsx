@@ -4,7 +4,6 @@ function Header(){
     return(
         <HeaderContainer>
             <Logo src = {Logoriocasas} alt = 'Logo da passeio carioca'/>
-            <CompanyTitle>Passeio Carioca</CompanyTitle>
         </HeaderContainer>
     );
 }

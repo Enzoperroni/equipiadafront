@@ -35,8 +35,10 @@ const PostHeader = styled.div`
 
 const PostImage = styled.img`
   width: 100%;
-  max-height: 400px;
+  max-height: 200px;
+  min-height: 200px;
   object-fit: cover;
+  
 `;
 
 const PostCaption = styled.div`
