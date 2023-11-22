@@ -1,12 +1,12 @@
 import LinkGenerico from "../components/Link Genérico/LinkGenérico";
-
+import PrimeiroLink from "../components/link/LinkPrimeiro";
 import RioDeJaneiroMap from "../components/mapa/mapa";
 import NewsFeed from "../components/feed/feed";
 import { Rodapé } from "../components/post-teste/poststyle";
 import { FundoFeed } from "../components/post-teste/poststyle";
 
 import SegundoLink from "../components/link/LinkSegundo";
-import { Rodapé } from "../components/post-teste/poststyle";
+
 const Primeiro = ()=> {
     const dados = [
         [ "https://www.ibmec.br/", "ibmec" ],
