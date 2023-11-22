@@ -7,7 +7,9 @@ Esse repositório contém os códigos do grupo Equipiada. Nele, criaremos um fee
 
 Referência: Página no instagram -> @riocasaseprediosantigos
 
-Outro repositório do projeto: https://github.com/Mnzss1133/Front-End
+#### Outro repositório do projeto: https://github.com/Mnzss1133/Front-End
+#### Link trello: https://trello.com/b/Mbb77Gff/kanban-quadro
+#### Link apresentaçao: https://www.canva.com/design/DAFza7h1kcQ/g2PHDLduYv7sxc7JsltTDA/edit
 
 ## Mapa leaflet
 
