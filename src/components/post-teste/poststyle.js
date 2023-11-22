@@ -55,7 +55,7 @@ const PostEndereco = styled.div`
 const Botao = styled.button`
   
   
-  position:realtive;
+  position:relative;
   width:100%;
   cursor: pointer;
   
@@ -79,8 +79,9 @@ const FundoFeed = styled.div`
 const Rodapé = styled.footer`
   margin-top: 22em;
   bottom: 10em;
-  border: 1px solid #e1e1e1;
-  background-color: white;
+  
+  
+  background-color: #09328C;
   
 `;
 export {Feed,PostCaption,PostContainer,PostHeader,PostImage,Botao,PostEndereco,Containerpost,Rodapé, FundoFeed}
