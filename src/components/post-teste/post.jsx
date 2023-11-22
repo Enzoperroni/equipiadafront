@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
-import { PostContainer, PostHeader, PostImage, PostCaption, Botao,PostEndereco} from './poststyle';
+import { PostContainer, PostHeader, PostImage, PostCaption, Botao, PostEndereco, BotaoExperiencia } from './poststyle';
 import PostMapa from '../mapa/mapapost';
 
-
-function Post({ username, imageSrc, caption,endereco }) {
+function Post({ username, imageSrc, caption, endereco, location })  {
   const [expanded, setExpanded] = useState(false);
+  const [experienciaOpen, setExperienciaOpen] = useState(false);
 
   const toggleDescription = () => {
     setExpanded(!expanded);
+  };
+
+  const toggleExperiencia = () => {
+    setExperienciaOpen(!experienciaOpen);
   };
 
   const maxCharacters = 80;
@@ -20,15 +24,21 @@ function Post({ username, imageSrc, caption,endereco }) {
       </PostHeader>
       <PostImage src={imageSrc} alt="Post" />
       <PostEndereco><span>{endereco}</span></PostEndereco>
-      
+
       <PostCaption>
         {expanded ? (
           <>
             <span>{caption}</span>
-           
-            <PostMapa></PostMapa>
+              <PostMapa posts={[{ position: location, title: username, imageSrc }]} />
 
-            
+            <BotaoExperiencia onClick={toggleExperiencia}> Experiencia</BotaoExperiencia>
+            {experienciaOpen && (
+              <div>
+                <p>Anúncio: Aqui vai o texto do seu anúncio.</p>
+                {/* Pode adicionar mais elementos ou personalizar conforme necessário */}
+              </div>
+            )}
+
             <Botao onClick={toggleDescription}>Leia Menos</Botao>
           </>
         ) : (
@@ -45,11 +55,10 @@ function Post({ username, imageSrc, caption,endereco }) {
             )}
           </>
         )}
-      
+
       </PostCaption>
-      
     </PostContainer>
   );
-};
+}
 
 export default Post;

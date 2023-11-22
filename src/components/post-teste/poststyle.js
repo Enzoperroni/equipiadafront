@@ -8,12 +8,16 @@ const Feed = styled.div`
 `;
 
 const PostContainer = styled.div`
+  
   width: 100%;
   max-width: 350px;
+  min-height: 250px;
+  
   background: #fff;
   border: 1px solid #e1e1e1;  
   margin: auto;
   border-radius:10px;
+  margin-top:20px;
   margin-bottom:20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 `;
@@ -31,6 +35,12 @@ const PostHeader = styled.div`
   span {
     font-weight: bold;
   }
+`;
+const BotaoExperiencia=styled.button`
+  margin-top:10px;
+  color:darkblue;
+  width:100%;
+
 `;
 
 const PostImage = styled.img`
@@ -79,14 +89,13 @@ const FundoFeed = styled.div`
 `
 
 const Rodapé = styled.footer`
-  margin-top: 22em;
-  bottom: 10em;
+  bottom:0px;
   
   
   
   
 `;
-export {Feed,PostCaption,PostContainer,PostHeader,PostImage,Botao,PostEndereco,Containerpost,Rodapé, FundoFeed}
+export {Feed,PostCaption,PostContainer,PostHeader,PostImage,Botao,PostEndereco,Containerpost,Rodapé, FundoFeed,BotaoExperiencia}
 
 
 
