@@ -6,7 +6,7 @@ const ImageLinkContainer = styled.a`
   
   flex-direction: column;
   width:50px;
-  hegiht:40px;
+  height:40px;
   align-items:center;
   text-decoration: none;
   
