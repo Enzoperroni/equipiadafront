@@ -1,5 +1,9 @@
-import Membros from "../membros/membros"
-import {minhalinkedin, douglas, mateuspc, mendes, joaopmenezes} from ".fotos/"
+import Membros from "../membros/members"
+import minhalinkedin from "./fotos/minhalinkedin.jpg"
+import douglas from "./fotos/douglas.jpg"
+import mateuspc from "./fotos/mateuspc.jpg"
+import joaopmenezes from "./fotos/joaopmenezes.png"
+import mendes from "./fotos/mendes.png"
 
 function Sobrenos() {
     return (
